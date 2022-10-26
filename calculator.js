@@ -2,6 +2,7 @@
 let screen=document.getElementById("answer");
 buttons=document.querySelectorAll('button');
 let screenValue='';
+
 for(item of buttons){
     item.addEventListener("click",function(e){
         buttontext=e.target.innerText;
